@@ -1,0 +1,139 @@
+body{
+    background-color:#1B0793;
+    background-size: 100%;
+    font-family:sans-serif;
+    
+    }
+
+header {
+        width: 100%;
+        background: #EA008B;
+        margin: auto;
+        position: fixed;
+        top: 0;
+       }
+
+.menu > li {
+             float: right;
+           }
+
+.menu li a {
+            background-color: #EA008B;
+            color: #FBF993;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+           }
+
+.menu li a:hover {
+                  background-color: #FD7A31;
+                 }
+
+
+
+                   
+
+#BtnMenu {
+          display: none;
+         }
+
+header label {
+              display: none;
+              width: 30px;
+              height: 30px;
+              padding: 10px;
+              border-right: 1px solid #EA008B;
+             }
+
+header label:hover {
+                    cursor: pointer;
+                    background: rgba(0, 0, 0, 0);
+                   }
+
+.menu li ul {
+             display: none;
+             position: absolute;
+             min-height: 140px;
+            }
+
+.menu li:hover > ul {
+                     display: inline-block;
+                    }
+
+.menu ul {
+           margin: 0;
+           list-style: none;
+           padding: 0;
+           display: flex;
+           flex-direction: row;
+         }
+
+.Inicio {
+         padding: 0px 0px 0px 0px;
+         text-align: center;
+        }
+
+.Inicio img {
+              width: 900px;
+              height: 350px;
+            }
+
+.Inicio h1 {
+             font-size: 55px;
+             color: #FD7A31;
+             text-transform: uppercase;
+             font-weight: 500;
+             line-height: 55px;
+             
+           }
+
+.Inicio p {
+             margin-top: 25px;         
+             line-height: 40px;
+             text-transform: uppercase;
+             color: antiquewhite;
+             font-size: 20px;
+          }
+
+.Opiniones {
+            padding: 0px 0px 0px 0px;
+            text-align: center;
+            color: aquamarine;
+           }
+        
+.Opiniones img {
+                 width: 150px;
+               }
+
+.Opiniones h1 {
+               font-size: 100;
+               color: #F2DD5C;
+              }
+
+.Opiniones p {
+               font-size: 18px;
+               color: antiquewhite;
+
+             }
+
+@media (min-width:500px){
+              body {
+                     background-color:#1B0793 ; 
+                   }
+
+              .img{
+                     width: 50%;
+                  }
+            }
+
+@media (max-width:900px){
+              body {
+                     background-color: #F2B60C; 
+                   }
+
+              .img{
+                    width: 150%;
+                  }
+            }
+
+
